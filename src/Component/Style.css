@@ -1,0 +1,226 @@
+html {
+    /* scroll-behavior: smooth !important;
+    scroll-padding-top: 80px; */
+    
+    /* font-family: 'Inter', sans-serif !important; */
+}
+
+.bg-color {
+    background-color: rgb(238, 238, 238);
+}
+
+.custom-space {
+    padding: 80px 0;
+}
+
+.fontFamily1 {
+    font-family: 'Amatic SC', sans-serif;     
+    font-size: 50px !important;   
+}
+
+
+
+/* Navbar */
+.navbar .active {
+    text-decoration: underline red 2px;
+}
+
+.activee {
+    text-decoration: none;
+}
+
+.nav-link {
+    cursor: pointer;
+}
+
+
+
+/* Home */
+.fontStyle{
+    font-family: 'Amatic SC', sans-serif;
+    font-size: 64px;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+
+
+/* About */
+.set {
+    width: 75%;
+    height: 20%;
+    bottom: 10%;
+    left: 12.5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+/* WhyChooseUs */
+.set-div {
+    color: red;
+    background-color: rgb(253, 186, 186);
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+/* Div */
+.bg-img {
+    padding: 80px 0;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url(../../public/Images/Div-bg.jpg) no-repeat fixed center/cover;
+    z-index: -1;
+}
+
+.fs-7 {
+    font-size: 48px;
+}
+
+
+
+/* Our Menu */
+.ourMenu .active {
+    color: red !important;
+}
+
+
+
+/* Testimonials */
+.testimonials-custom-space {
+    padding: 60px 0 140px 0;
+}
+
+.carousel-indicators {
+    bottom: -75px;
+}
+
+.carousel-indicators button {
+    width: 12px !important;
+    height: 12px !important;
+    border-radius: 50%;
+}
+
+
+
+/* Event */
+.img-height {
+    height: 580px;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+    position: relative;
+}
+
+.img-height::before {
+    width: 100%;
+    height: 100%;
+    content: "";
+    background-color: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    top: 0;
+}
+
+.float-Div {
+    color: white;
+    padding: 30px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+
+
+/* Chefs */
+.card-hover {
+    transition: transform 0.3s;
+    overflow: hidden;
+}
+
+.card-hover:hover {
+    transform: scale(1.06);
+}
+
+.set-shape {
+    position: relative;
+}
+
+.set-shape::after {
+    width: 100%;
+    height: 100%;
+    content: "";
+    background: url(../../public/Images/Chef-Shape.svg) no-repeat bottom/contain;
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+    z-index: 1;
+}
+
+.social {
+    width: 12%;
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 5px;
+    position: absolute;
+    z-index: 2;
+    top: 30px;
+    right: -100px;
+    transition: all 0.5s;
+}
+
+.card-hover:hover .social {
+    right: 10px;
+}
+
+.social a {
+    display: block;
+    margin: 10px;
+    text-align: center;
+    color: rgba(55, 55, 63, 0.4);
+}
+
+.social a:hover {
+    color: rgba(55, 55, 63, 1);
+}
+
+
+
+/* Gallery */
+.gallery-custom-space {
+    padding: 80px 0 120px 0;
+}
+
+.slick-center {
+    border: 5px solid red;
+    padding: 3px;
+}
+
+.slick-dots {
+    bottom: -35px !important;
+}
+
+.slick-dots li button::before {
+    font-size: 10px !important;
+    color: red !important;
+}
+
+
+
+/* Contact */
+.setWH {
+    width: 56px;
+    height: 56px;
+}
+
+
+
+/* Footer */
+.footer-hover a i:hover {
+    opacity: 1 !important;
+}
